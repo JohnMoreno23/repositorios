@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt. pc   (mais usada px)         
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %    (mais usada em)
+            
+            16px geralmente = 1em
+            ou seja,
+            2 em = 32px
+            */
+
+            font-size: 1.1em;
+
+        }
+
+        h1 {
+            /* font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* 
+            Existe uma config padrão para essas propriedades declaradas na h1, que é "font". Pra isso ela tem uma sequencia...
+
+            primeiro font-style -> font-weight -> font-size -> font-family
+
+            Sempre nessa ordem!
+            */
+
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2{
+            font: bold 2em sans-serif;
+            /* Posso fazer dessa forma tbm, sem indicar se eh italico, negrito ou etc... só altero a ordem, sendo a primeira proriedade, o peso da fonte   */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quidem ex vero accusantium? Ad velit molestiae
+        sint consequuntur, temporibus commodi nostrum qui inventore corrupti in facere! Deserunt cupiditate aspernatur
+        mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis tempora cum vitae
+        repudiandae commodi neque minus excepturi voluptatum molestiae eum dolor sit optio, amet ex consectetur error
+        repellendus fuga?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quam incidunt dolorem possimus ullam. Dicta
+        cum quos voluptas, neque porro sapiente, vitae architecto laudantium, pariatur hic nihil temporibus rerum
+        dolores.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nulla obcaecati ipsam ipsa suscipit, fuga
+        modi perferendis accusantium ea, a ut sed amet atque expedita et nemo est recusandae laborum. Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Accusantium, beatae. Voluptatibus, voluptatem vel! Vel illo eum impedit,
+        esse praesentium sequi reprehenderit magnam unde architecto corporis, quos omnis, doloribus rem molestiae.</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            /*  #  = id
+                .  = class
+                :  = pseudo-class
+                :: = pseudo-element
+                >  = children
+
+                 */
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Mais uma pseudoclasse, aqui definimos cor pra nosso link e abaixo defino a cor que vai ficar apos o link ser visitado ou acionado */
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        /* Abaixo uso a pseudoclasse active, para o link ativo ou clicado receber uma função. No caso vai alterar a cor */
+
+        a:active {
+            color: yellow;
+        }
+
+        /* Abaixo um aviso apos os links, um infoormativo pra avisar ao usuario que aquela opção é um link */
+
+        a:after {
+            content: '  [ Link ]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkkhaki;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/JohnMoreno23" target="_blank">Github</a></li>
+        <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do curso em video</a></li>
+    </ul>
+
+
+
+    <p><a href="pseudoclass.html">Voltar para parte 1</a></p>
+    <p><a href="parte2.html">Voltar para Parte 2</a></p>
+</body>
+
+</html>

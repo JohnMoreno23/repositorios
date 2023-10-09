@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas e midias</title>
+</head>
+
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Criando imagem dinamica que se ajusta sozinha!</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/gatop.png" type="image/png">
+
+        <source media="(max-width: 1050px )" srcset="imagens/gatom.png" type="image/png">
+
+        <img src="imagens/gatog.png" alt="imagem flexivel">
+
+
+    </picture>
+</body>
+
+</html>

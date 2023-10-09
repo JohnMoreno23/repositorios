@@ -1,0 +1,51 @@
+* {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, #6DE871, #27E32D);
+
+}
+
+main{
+    background-color: ghostwhite;
+    width: 650px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 18px #157819;
+    /* box shadow trabalha com 4 parametros. O primeiro parametro é quando a sombra vai andar pro lado. O segundo, pra baixoo. O terceiro, é o quanto a sombra vai espalhar e o ultimo é o quanto de transparencia e cor a sombra vai ter!  */
+
+    margin: auto; /* Descobri que essa tag centraliza */
+    margin-bottom: 20px;
+
+}
+
+h1{
+    color: #1FB224;
+    text-align: center;
+    text-shadow: 1px 1px 2px #105e13;
+}
+
+h2{
+    color: #2F6330;
+}
+
+p{
+    text-align: justify;
+}
+
+fieldset {
+    border: 2px solid darkblue;
+    border-radius: 30px;
+    margin: 20px;
+    width: 340px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+

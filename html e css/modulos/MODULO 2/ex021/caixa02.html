@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.327);
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.327);
+        }
+
+        nav {
+            background-color: rgb(117, 116, 116);
+            padding: 5px;
+            box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.478);
+            border-radius: 7px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            color: yellowgreen;
+        }
+
+        article {
+            background-color: bisque;
+            padding: 5px;
+        }
+
+        article>aside {
+            background-color: rgb(148, 141, 134);
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+            box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.478);
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body> <!-- Forma base para corpo de um site, forma correta e que da mais sentido ao desenvolvimento -->
+    <header> <!-- Topo de um site, começa no header -->
+        <h1>Meu site</h1>
+        <nav> <!-- Onde costumamos deixar os menus de navegação, ficam no nav -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main> <!-- Main é onde trabalhamos a parte central e principal do site, onde a maioria dos conteúdos vão -->
+        <section id="assuntos"><!--Sessao, como uma div mas serve pra deixar semanticamente correto-->
+            <p>Esporte Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article><!-- Tag semantica de artigos-->
+                <h2>Noticia sobre a saída do Gato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero aspernatur sit accusantium expedita
+                    ullam totam eos qui at aliquam recusandae. Corrupti pariatur in hic accusantium id nulla sunt
+                    ratione alias!</p>
+                <aside><!-- Periférico ao artigo, ex: autor -->
+                    <p>Artigo escrito por Thanos Silva</p>
+
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+        <a href="caixa01.html">Parte 1</a>
+
+    </main>
+    <footer><!--Rodapé do site, onde vão informações, contato, etc...-->
+        <p>desenvolvido por John</p>
+
+    </footer>
+
+</body>
+
+</html>

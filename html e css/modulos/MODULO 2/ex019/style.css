@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: #D4FEE8;
+    font-family: helvetica, sans-serif;
+}
+
+h1{
+    color: #2D533E;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #2D533E;
+    color: #D4FEE8;
+}
+
+h2{
+    color: #3c5147;
+}
+
+.bs{
+    color: brown;
+    
+}
+
+.int{
+    color: lightslategray;
+    
+}
+
+.av{
+    color: lightseagreen;
+}
+
+.destaque{
+    background-color: rgb(242, 242, 88);
+}
