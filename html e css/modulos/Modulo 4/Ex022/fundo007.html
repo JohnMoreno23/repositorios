@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 80vh;
+            padding: 10px;
+            background-color: brown;
+        }
+
+        #conteudo{
+            position: absolute;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            height: 200px;
+            width: 200px;
+            background-color: burlywood;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            /*  
+            Primeiro coloco o container com position relative
+
+            depois o conteudo com position absolute
+
+            no conteudo eu defino top e left pra 50%
+
+            uso o atributo transform com parametro translate, movo pro centro usando negativamente 50% duas vezes.
+
+            Centralizado em qualquer resolução de tela.
+            */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
