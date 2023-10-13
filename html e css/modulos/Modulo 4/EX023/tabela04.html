@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela desafio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to bottom, rgb(203, 203, 203), rgb(102, 102, 102));
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px 0px rgb(203, 58, 58);
+            padding: 20px;
+        }
+
+        main {
+            background-color: rgb(201, 225, 255);
+            width: 80vw;
+            margin: auto;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            border-radius: 40px;
+            box-shadow: 0px 0px 15px black;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50vw;
+            text-align: center;
+            margin: auto;
+            max-width: 500px;
+            min-width: 260px;
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        footer {
+            height: 20vh;
+            background-color: rgb(19, 19, 19);
+            color: white;
+            text-align: center;
+        }
+
+        footer p {
+            line-height: 20vh;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: aquamarine;
+        }
+
+        footer a:hover {
+
+            text-decoration: underline;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apresentação dos desafios das tabelas</h1>
+    <main>
+        <h1>Desafio 01 - Tabelas</h1>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+        
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+        
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+        
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+        
+            </tr>
+        </table>
+        <h1>Desafio 02 - Tabelas</h1>
+        <table>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+        
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+        
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+        
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+        
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+        
+            </tr>
+        </table>
+    </main>
+    
+</body>
+
+<footer>
+    <p>Desenvolvido por <a href="https://github.com/JohnMoreno23" target="_blank">John</a></p>
+</footer>
+</html>
