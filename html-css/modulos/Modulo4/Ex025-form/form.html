@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro formulário!</h1>
+    <form action="cadastro.php"> <!-- Pra mandar o formulario pra algum lugar usamos a tag action e definimos pra onde vai. ex: action="cadastro.php"-->
+
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+
+        <!-- Precisamos criar relação entre os campos e as caixas de texto. Pra fazer isso usamos o LABEL com o for e colocamos o mesmo nome da ID do input criado. Os exemplos estão nas tags acima e abaixo. -->
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    
+</body>
+</html>
