@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Estilos para TELAS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(105, 160, 203);
+    border-radius: 20px;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(141, 188, 204);
+    
+}
+
+article {
+    max-width: 60vw;
+    display: block;
+    margin: auto;
+}
