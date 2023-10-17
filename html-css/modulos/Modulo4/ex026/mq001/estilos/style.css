@@ -39,4 +39,9 @@ article {
     max-width: 60vw;
     display: block;
     margin: auto;
+    text-align: justify;
+}
+
+p {
+    margin: 20px 0px;
 }
