@@ -1,6 +1,153 @@
 @charset "UTF-8";
 
 /* Todas as mídias */
+/* typical devices breakpoints
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+Tablet: de 769px ate 992px 
+Desktop: de 992px ate 1200 px
+grandes telas: acima de 1200px
+
+*/
+
+/* Como usamos o conceito de mobile first, (para celular primeiro)
+    Agora usaremos as configs dos demais dispositivos abaixo
+
+*/
+
+/* Impressao */
 @media print {
-    
+    * {
+
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Impressão realizada em Site do John';
+        text-decoration: overline;
+        padding: 10px;
+    }
+
+    main h1 {
+
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+    }
+
+    #tv {
+        display: none;
+    }
+}
+
+/* Grandes telas */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+
+    main {
+        width: 68vw;
+        height: 50vh;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: none;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
 }
