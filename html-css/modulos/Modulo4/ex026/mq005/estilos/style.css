@@ -64,7 +64,7 @@ ul li a:hover {
 }
 
 main {
-    width: 90vw;
+    width: 70vw;
     background-color: white;
     box-shadow: 1px 0px 2px 3px rgba(0, 0, 0, 0.436);
     margin: auto;
@@ -98,7 +98,7 @@ article p {
     }
 
     header {
-        width: 100vw;
+        width: 100%;
     }
 
     menu {
