@@ -9,13 +9,13 @@
 html,
 body {
     background-color: rgb(166, 181, 209);
-    min-width: 280px;
 }
 
 header {
     display: inline-block;
     background-color: rgb(174, 174, 174);
-    position: sticky; /* esse e o de baixo servem pra fixar o menu */
+    position: sticky;
+    /* esse e o de baixo servem pra fixar o menu */
     top: 0;
     width: 100vw;
 
@@ -27,6 +27,7 @@ header h1 {
 }
 
 #burger {
+    min-width: 280px;
     background-color: rgb(65, 65, 65);
     display: block;
     color: white;
