@@ -19,8 +19,22 @@ header h1 {
     text-align: center;
 }
 
-menu {
+span#burger {
+    background-color: rgb(65, 65, 65);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
     
 }
 
@@ -45,6 +59,7 @@ ul li a:hover {
 main {
     width: 90vw;
     background-color: white;
+    box-shadow: 1px 0px 2px 3px rgba(0, 0, 0, 0.436);
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -54,6 +69,7 @@ main {
 
 main article h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 article p {
