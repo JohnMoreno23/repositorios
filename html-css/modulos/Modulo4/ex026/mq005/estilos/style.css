@@ -9,6 +9,7 @@
 html,
 body {
     background-color: rgb(166, 181, 209);
+    min-width: 280px;
 }
 
 header {
@@ -31,7 +32,6 @@ header h1 {
     color: white;
     /* text-align: center; */
     padding: 10px;
-    padding-left: 40px;
     cursor: pointer;
 
 }
