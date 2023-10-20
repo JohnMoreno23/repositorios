@@ -16,7 +16,7 @@ header {
     background-color: rgb(174, 174, 174);
     position: sticky; /* esse e o de baixo servem pra fixar o menu */
     top: 0;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -95,6 +95,10 @@ article p {
 @media screen and (min-width: 768px) {
     #burger {
         display: none;
+    }
+
+    header {
+        width: 100vw;
     }
 
     menu {
