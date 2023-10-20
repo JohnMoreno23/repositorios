@@ -29,6 +29,9 @@ header h1 {
     padding: 10px;
     padding-left: 40px;
     cursor: pointer;
+    position: fixed;
+    width: 100vw;
+    
 }
 
 #burger:hover {
@@ -38,7 +41,6 @@ header h1 {
 
 menu {
     display: none;
-    
 }
 
 menu ul {
@@ -64,7 +66,7 @@ main {
     background-color: white;
     box-shadow: 1px 0px 2px 3px rgba(0, 0, 0, 0.436);
     margin: auto;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 20px;
