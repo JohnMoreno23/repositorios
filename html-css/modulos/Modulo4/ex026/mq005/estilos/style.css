@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -19,12 +21,13 @@ header h1 {
     text-align: center;
 }
 
-span#burger {
+#burger {
     background-color: rgb(65, 65, 65);
     display: block;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
+    padding-left: 40px;
     cursor: pointer;
 }
 
@@ -42,7 +45,7 @@ menu ul {
     list-style-type: none;
 }
 
-menu a {
+menu ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -86,7 +89,7 @@ article p {
 /*  media queries */
 
 @media screen and (min-width: 768px) {
-    span#burguer {
+    #burguer {
         display: none;
     }
 
