@@ -12,7 +12,12 @@ body {
 }
 
 header {
+    display: inline-block;
     background-color: rgb(174, 174, 174);
+    position: sticky;
+    top: 0;
+    width: 100vw;
+
 }
 
 header h1 {
@@ -98,6 +103,7 @@ article p {
 
     menu ul li {
         display: inline-block;
+        margin-left: 20px;
     }
 
     main {
