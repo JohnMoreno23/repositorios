@@ -29,9 +29,7 @@ header h1 {
     padding: 10px;
     padding-left: 40px;
     cursor: pointer;
-    position: fixed;
-    width: 100vw;
-    
+
 }
 
 #burger:hover {
@@ -102,7 +100,7 @@ article p {
     menu ul li {
         display: inline-block;
     }
-    
+
     main {
         width: 768px;
     }
